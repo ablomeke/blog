@@ -3,7 +3,7 @@ require 'spec_helper'
 describe "posts/new" do
 	it "contains a place to enter title" do
 		render
-		expect(rendered).to include("Title")
+		expect(rendered).to include("Titles")
 	end
 
 	it "contains a place to enter text" do
